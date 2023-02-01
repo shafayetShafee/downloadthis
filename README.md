@@ -52,3 +52,8 @@ See the [example_styling.qmd](example_styling.qmd) for an example and the render
 ## Example
 
 Here is the source code for examples: [example.qmd](example.qmd) and the rendered html output: [example.html](https://shafayetshafee.github.io/downloadthis/example.html)
+
+
+## Acknowledgement
+
+This shortcode extension is inspired by the R package [`{downloadthis}`](https://fmmattioni.github.io/downloadthis/index.html).
