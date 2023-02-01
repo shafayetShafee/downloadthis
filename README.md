@@ -43,6 +43,12 @@ An example using all these arguments as follows,
 ```
 where `mtcars.csv` is in a folder named `files` and the `files` folder is in the same folder with source `.qmd` file.
 
+### Styling Buttons
+
+Using the option `class` or `id`, it is very simple to style the button using CSS.
+
+See the [example_styling.qmd](example_styling.qmd) for an example and the rendered [html output](https://shafayetshafee.github.io/downloadthis/example_styling.html)
+
 ## Example
 
 Here is the source code for examples: [example.qmd](example.qmd) and the rendered html output: [example.html](https://shafayetshafee.github.io/downloadthis/example.html)

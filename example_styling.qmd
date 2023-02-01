@@ -1,0 +1,37 @@
+---
+title: "Downloadthis Example"
+author: Shafayet Khan Shafee
+date: last-modified
+format: html
+css: button-style.css
+---
+
+
+## Styling the buttons
+
+Using the options `class` or `id`, it is really simple to style the buttons using CSS.
+
+Suppose we define following CSS class and id's in a CSS file,
+
+```{.css filename="button-style.css"}
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+.styled {
+  font-family: 'Itim', cursive;
+  font-size: 15px;
+}
+
+#btn1 {
+  background-color: #FF4918;
+}
+
+#btn2 {
+  background-color: #18FFB0;
+}
+
+```
+
+
+Then we add the two styled buttons using `{{{< downloadthis files/quarto.png class=styled id=btn1 >}}}` and `{{{< downloadthis files/quarto.png class=styled id=btn2 >}}}`,
+
+
+{{< downloadthis files/quarto.png class=styled id=btn1 >}}   {{< downloadthis files/quarto.png class=styled id=btn2 >}}

@@ -1,6 +1,0 @@
-*.html
-*.pdf
-*_files/
-!docs/*
-*.rproj
-!files/*

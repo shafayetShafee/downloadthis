@@ -57,7 +57,8 @@ return {
       local mimetype = puremagic.via_path(file_path)
       local data_uri = 'data:' .. mimetype .. ";base64," .. b64_encoded
       
-      -- js code 
+      -- js code taken from
+      -- https://github.com/fmmattioni/downloadthis/blob/master/R/utils.R#L59
       local js = [[fetch('%s').then(res => res.blob()).then(blob => {
       const downloadURL = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
