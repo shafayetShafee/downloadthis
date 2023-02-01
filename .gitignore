@@ -5,3 +5,4 @@
 *.rproj
 !files/*
 .Rproj.user/
+.Rhistory
