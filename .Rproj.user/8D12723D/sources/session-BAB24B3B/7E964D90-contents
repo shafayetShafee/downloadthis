@@ -1,0 +1,38 @@
+---
+title: "Downloadthis Example"
+author: Shafayet Khan Shafee
+date: last-modified
+format: html
+---
+
+## Downloading png file
+
+Using `{{{< downloadthis files/quarto.png >}}}`, you can create the following download buttons that downloads the logo of quarto embedded within this rendered html document,
+
+{{< downloadthis files/quarto.png >}}
+
+
+And it is also possible to specify,
+
+- the downloaded file name with `dname` argument, 
+- button label with `label` argument,
+- button icon name with `icon` argument.
+- button type with `type` argument.
+
+## Downloading csv file
+
+`{{{< downloadthis files/mtcars.csv dname=Mtcars label="Download the mtcars data" icon=database-fill-down type=info class=data-button id=mtcars >}}}`
+
+Writting the shortcode as above creates the following button,
+
+{{< downloadthis files/mtcars.csv dname=Mtcars label="Download the mtcars data"
+icon=database-fill-down type=info class=data-button id=mtcars >}}
+
+
+## Downloading pdf file
+
+`{{{< downloadthis files/pdf_example.pdf dname=File label="Download the pdf" icon=file-earmark-pdf type=success >}}}`
+
+Similarly, the above shortcode creates the following button,
+
+{{< downloadthis files/pdf_example.pdf dname="File" label="Download the pdf" icon="file-earmark-pdf" type="success" >}}
