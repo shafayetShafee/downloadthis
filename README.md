@@ -2,7 +2,7 @@
 
 This extension shortcode provides support for adding download buttons in the html files with attached small image/pdf/txt/csv files using shortcode `{{< downloadthis >}}`.
 
-[View Live Demo](https://shafayetshafee.github.io/downloadthis/example.html)
+[`View Live Demo`](https://shafayetshafee.github.io/downloadthis/example.html)
 
 ## Installing
 
@@ -47,7 +47,7 @@ where `mtcars.csv` is in a folder named `files` and the `files` folder is in the
 
 Using the option `class` or `id`, it is very simple to style the button using CSS.
 
-See the [example_styling.qmd](example_styling.qmd) for an example and the rendered [html output](https://shafayetshafee.github.io/downloadthis/example_styling.html)
+See the [example_styling.qmd](example_styling.qmd) for an example and the rendered [`html output`](https://shafayetshafee.github.io/downloadthis/example_styling.html)
 
 ## Example
 

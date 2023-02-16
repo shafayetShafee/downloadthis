@@ -2,7 +2,10 @@
 title: "Downloadthis Example"
 author: Shafayet Khan Shafee
 date: last-modified
-format: html
+format: 
+  html:
+    code-tools: true
+embed-resources: true
 ---
 
 ## Downloading png file

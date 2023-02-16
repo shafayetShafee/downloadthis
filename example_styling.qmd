@@ -2,8 +2,11 @@
 title: "Downloadthis Example"
 author: Shafayet Khan Shafee
 date: last-modified
-format: html
+format: 
+  html:
+    code-tools: true
 css: button-style.css
+embed-resources: true
 ---
 
 
