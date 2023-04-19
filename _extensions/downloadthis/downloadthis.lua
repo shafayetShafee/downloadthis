@@ -45,13 +45,12 @@ local function optional(arg, default)
 end
 
 function import(script)
-  local path = PANDOC_SCRIPT_FILE:match("(.*[/\\])") .. "resources/lua/"
+  local path = PANDOC_SCRIPT_FILE:match("(.*[/\\])")
   package.path = path .. script .. ";" .. package.path
   return require(script)
 end
 
-local b64 = import('base64.lua')
-local puremagic = import('puremagic.lua')
+local puremagic = import("puremagic.lua")
 
 return {
   ['downloadthis'] = function(args, kwargs, meta) 
@@ -79,7 +78,7 @@ return {
       fh:close()
       
       -- creating dataURI object
-      local b64_encoded = b64.encode(contents)
+      local b64_encoded = quarto.base64.encode(contents)
       local mimetype = puremagic.via_path(file_path)
       local data_uri = 'data:' .. mimetype .. ";base64," .. b64_encoded
       
@@ -118,4 +117,5 @@ return {
     end
   end
 }
+
 

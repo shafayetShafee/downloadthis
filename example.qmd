@@ -26,7 +26,7 @@ And it is also possible to specify,
 
 `{{{< downloadthis files/mtcars.csv dname=Mtcars label="Download the mtcars data" icon=database-fill-down type=info class=data-button id=mtcars >}}}`
 
-Writting the shortcode as above creates the following button,
+Writing the shortcode as above creates the following button,
 
 {{< downloadthis files/mtcars.csv dname=Mtcars label="Download the mtcars data"
 icon=database-fill-down type=info class=data-button id=mtcars >}}
